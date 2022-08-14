@@ -64,9 +64,10 @@ jobs:
 
           with open("AUTHORS.rst", "w") as authors_file:
               authors_file.write(file_head)
-              authors_file.write("- ")
-              authors_file.write("\n- ".join(authors))
-              authors_file.write("\n")
+              if len(authors) > 0:
+                authors_file.write("- ")
+                authors_file.write("\n- ".join(authors))
+                authors_file.write("\n")
 
       - name: Check if diff
         continue-on-error: true
