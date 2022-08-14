@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "rstcheck-sphinx"
-version = "1.0.0"
+version = "1.0.1"
 description = "Builder for the sphinx documentation generator to check the source with rstcheck."
 authors = ["Christian Riedel <cielquan@protonmail.com>"]
 maintainers = ["Christian Riedel <cielquan@protonmail.com>"]
