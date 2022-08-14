@@ -6,4 +6,4 @@ Builder extension for the sphinx documentation generator to check the source wit
 
 **This project is under heavy development and not yet ready for use!**
 
-**Even so the docs state that you can install this package from PyPI only the name was saved as of now.**
+**The package on PyPI is empty.**
