@@ -2,7 +2,6 @@
 # pylint: disable=C0103
 import os
 import re
-import shutil
 import typing as t
 from datetime import date
 from importlib.util import find_spec
