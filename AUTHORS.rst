@@ -9,4 +9,3 @@ Christian Riedel <cielquan@protonmail.com>
 
 Additional contributions by (sorted by name)
 --------------------------------------------
-- 
