@@ -25,7 +25,7 @@ repos:
 
   # file checking out-of-the-box hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: c4a0b883114b00d8d76b479c820ce7950211c99b  # frozen: v4.5.0
+    rev: c4a0b883114b00d8d76b479c820ce7950211c99b # frozen: v4.5.0
     hooks:
       - id: check-case-conflict
       - id: check-shebang-scripts-are-executable
@@ -36,7 +36,7 @@ repos:
 
   # safety - python dependency vulnerability checker
   - repo: https://github.com/Lucas-C/pre-commit-hooks-safety
-    rev: cdd875f1c96ba08362eb92c2b0f6de8d614f2fd1  # frozen: v1.3.2
+    rev: cdd875f1c96ba08362eb92c2b0f6de8d614f2fd1 # frozen: v1.3.2
     hooks:
       - id: python-safety-dependencies-check
         args: ["--full-report"]
@@ -55,27 +55,27 @@ repos:
 
   # pyupgrade - upgrade old syntax to new
   - repo: https://github.com/asottile/pyupgrade
-    rev: 1bbebc88c6925a4e56fd5446b830b12c38c1c24a  # frozen: v3.15.0
+    rev: 1bbebc88c6925a4e56fd5446b830b12c38c1c24a # frozen: v3.15.0
     hooks:
       - id: pyupgrade
         args: ["--py37-plus"]
 
   # isort - sort imports
   - repo: https://github.com/PyCQA/isort
-    rev: dbf82f2dd09ae41d9355bcd7ab69187a19e6bf2f  # frozen: 5.12.0
+    rev: dbf82f2dd09ae41d9355bcd7ab69187a19e6bf2f # frozen: 5.12.0
     hooks:
       - id: isort
 
   # black - python formatter
   - repo: https://github.com/psf/black
-    rev: e87737140f32d3cd7c44ede75f02dcd58e55820e  # frozen: 23.9.1
+    rev: e87737140f32d3cd7c44ede75f02dcd58e55820e # frozen: 23.9.1
     hooks:
       - id: black
         args: ["--safe"]
 
   # blacken-docs - black for python code in docs (rst/md/tex)
   - repo: https://github.com/asottile/blacken-docs
-    rev: 960ead214cd1184149d366c6d27ca6c369ce46b6  # frozen: 1.16.0
+    rev: 960ead214cd1184149d366c6d27ca6c369ce46b6 # frozen: 1.16.0
     hooks:
       - id: blacken-docs
         exclude: testing|tests
@@ -86,7 +86,7 @@ repos:
 
   # prettier - multi formatter
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: fc260393cc4ec09f8fc0a5ba4437f481c8b55dc1  # frozen: v3.0.3
+    rev: fc260393cc4ec09f8fc0a5ba4437f481c8b55dc1 # frozen: v3.0.3
     hooks:
       - id: prettier
 
@@ -117,7 +117,7 @@ repos:
 
   # code unspecific out-of-the-box hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: c4a0b883114b00d8d76b479c820ce7950211c99b  # frozen: v4.5.0
+    rev: c4a0b883114b00d8d76b479c820ce7950211c99b # frozen: v4.5.0
     hooks:
       - id: end-of-file-fixer
         stages: [commit]
@@ -147,7 +147,7 @@ repos:
 
   # code unspecific out-of-the-box hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: c4a0b883114b00d8d76b479c820ce7950211c99b  # frozen: v4.5.0
+    rev: c4a0b883114b00d8d76b479c820ce7950211c99b # frozen: v4.5.0
     hooks:
       - id: check-merge-conflict
       - id: detect-private-key
@@ -158,7 +158,7 @@ repos:
 
   # python specific out-of-the-box hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: c4a0b883114b00d8d76b479c820ce7950211c99b  # frozen: v4.5.0
+    rev: c4a0b883114b00d8d76b479c820ce7950211c99b # frozen: v4.5.0
     hooks:
       - id: debug-statements
       - id: fix-encoding-pragma
@@ -168,7 +168,7 @@ repos:
 
   # several python code regex hooks
   - repo: https://github.com/pre-commit/pygrep-hooks
-    rev: 3a6eb0fadf60b3cccfd80bad9dbb6fae7e47b316  # frozen: v1.10.0
+    rev: 3a6eb0fadf60b3cccfd80bad9dbb6fae7e47b316 # frozen: v1.10.0
     hooks:
       - id: python-check-blanket-noqa
       - id: python-check-blanket-type-ignore
@@ -178,7 +178,7 @@ repos:
 
   # flakeheaven - wrapper for flake8
   - repo: https://github.com/flakeheaven/flakeheaven
-    rev: 289c489c9654342dae2ad871527c5951acb2f22d  # frozen: 3.3.0
+    rev: 289c489c9654342dae2ad871527c5951acb2f22d # frozen: 3.3.0
     hooks:
       - id: flakeheaven
         types: [python]
@@ -212,7 +212,7 @@ repos:
 
   # poetry - python dependency maJSONnagement
   - repo: https://github.com/python-poetry/poetry
-    rev: f631c22f715e0712d99a7493caab3f8088a582ab  # frozen: 1.6.0
+    rev: f631c22f715e0712d99a7493caab3f8088a582ab # frozen: 1.6.0
     hooks:
       - id: poetry-check
 
@@ -222,7 +222,7 @@ repos:
 
   # shellscript (via PyPI package)
   - repo: https://github.com/shellcheck-py/shellcheck-py
-    rev: 4de1378e4cd853bfc2b111b05fff35e2dbf809a3  # frozen: v0.9.0.6
+    rev: 4de1378e4cd853bfc2b111b05fff35e2dbf809a3 # frozen: v0.9.0.6
     hooks:
       - id: shellcheck
 
@@ -232,7 +232,7 @@ repos:
 
   # rstcheck - rst file checker
   - repo: https://github.com/rstcheck/rstcheck
-    rev: 445861c31d8134562e723d77115721038de2e687  # frozen: v6.2.0
+    rev: 445861c31d8134562e723d77115721038de2e687 # frozen: v6.2.0
     hooks:
       - id: rstcheck
         additional_dependencies: [sphinx]
@@ -245,7 +245,7 @@ repos:
 
   # markdownlint - md file checker
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: ef974bde8375da10f3aa38a1b6ce646a34a23446  # frozen: v0.10.0
+    rev: ef974bde8375da10f3aa38a1b6ce646a34a23446 # frozen: v0.10.0
     hooks:
       - id: markdownlint-cli2
 
@@ -255,13 +255,13 @@ repos:
 
   # JSON specific out-of-the-box hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: c4a0b883114b00d8d76b479c820ce7950211c99b  # frozen: v4.5.0
+    rev: c4a0b883114b00d8d76b479c820ce7950211c99b # frozen: v4.5.0
     hooks:
       - id: check-toml
       - id: check-yaml
 
   # yamllint - yaml linter
   - repo: https://github.com/adrienverge/yamllint
-    rev: b05e028c5881819161d11cb543fd96a30c06cceb  # frozen: v1.32.0
+    rev: b05e028c5881819161d11cb543fd96a30c06cceb # frozen: v1.32.0
     hooks:
       - id: yamllint
